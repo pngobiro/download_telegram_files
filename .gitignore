@@ -1,0 +1,93 @@
+# PDF files (large medical documents)
+*.pdf
+*.PDF
+
+# Word/PowerPoint documents (large)
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.DOC
+*.DOCX
+*.PPT
+*.PPTX
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.JPG
+*.JPEG
+*.PNG
+*.GIF
+
+# Telegram session files (contains authentication)
+*.session
+*.session-journal
+
+# Download directories
+*/downloads/
+*/organized/
+
+# Metadata and tracking (optional - uncomment if you want to exclude)
+# file_metadata.json
+# downloaded_files_tracker.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup files
+*_backup*
+*_old*
+*.bak
+
+# Large files indicator
+*.tar.gz
+*.zip
+*.rar
