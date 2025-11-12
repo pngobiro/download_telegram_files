@@ -1,8 +1,10 @@
-# PDF files (large medical documents)
+# Telegram session files (contains authentication - MUST EXCLUDE)
+*.session
+*.session-journal
+
+# Large files - exclude PDFs and media everywhere
 *.pdf
 *.PDF
-
-# Word/PowerPoint documents (large)
 *.doc
 *.docx
 *.ppt
@@ -11,8 +13,6 @@
 *.DOCX
 *.PPT
 *.PPTX
-
-# Media files
 *.mp4
 *.avi
 *.mov
@@ -26,17 +26,10 @@
 *.PNG
 *.GIF
 
-# Telegram session files (contains authentication)
-*.session
-*.session-journal
-
-# Download directories
+# Downloaded content folders (any channel)
+# Metadata JSON files will still be tracked
 */downloads/
 */organized/
-
-# Metadata and tracking (optional - uncomment if you want to exclude)
-# file_metadata.json
-# downloaded_files_tracker.json
 
 # Python
 __pycache__/
@@ -86,8 +79,11 @@ Thumbs.db
 *_backup*
 *_old*
 *.bak
+README_old.md
 
-# Large files indicator
+# Large installers
+*.deb
 *.tar.gz
 *.zip
 *.rar
+protonvpn-stable-release*
